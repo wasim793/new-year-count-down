@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("Embrace Winter Wonders! Enjoy cozy interiors and the beauty of nature_.jpg");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: red; */
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    /* margin: 0; */
+    justify-content: center;
+    
+}
+h1{
+    /* color: red; */
+    color: rgb(134, 137, 139);
+    font-size: 4rem;
+}
+.countdown-container{
+    display: flex;
+    justify-content: center;
+}
+.big-text{
+    font-size: 6rem;
+    margin: 1rem 2rem;
+}
+span{
+    font-size: 1.3 rem;
+}
